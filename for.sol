@@ -5,7 +5,7 @@ pragma solidity ^0.8.26;
 contract HelloWorld {
     function looping(int256 x) public pure returns(int256){
 
-        for(i=0;i<=10;i++){
+        for(uint256 i=0;i<=10;i++){
 
            x++;
         }
