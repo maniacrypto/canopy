@@ -17,6 +17,7 @@ contract Loop {
 
             j++;
         }
+        return j;
 
 
         }
